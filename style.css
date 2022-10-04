@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Roboto,Helvetica Neue,Arial;
+}
+body{
+     overflow-x: hidden;
+}
+header{
+    width:100%;
+    height:14%;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top:0;
+    
+   
+}
+.logo{
+    width:175px;
+    height:90px;
+}
+ul{
+    display: flex;
+    align-items:center;
+    
+   
+}
+
+
+li{
+    list-style:none;
+    margin-left: 20px;
+    
+}
+li:hover{
+    border-bottom: 1px solid white;
+
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+     
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+     
+   
+}
+.icons{
+    
+    display: flex;
+    align-items: center;
+    margin:50px;
+
+    
+    
+}
+.urus{
+ width: 100%;
+ 
+}
+.Header{
+ position: absolute;
+ top: 0;
+}
+.urus1{
+   color: white;
+   padding-left: 149px;
+   padding-top: 164px;
+   font-size: 2rem;
+   margin-top: -796px;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight:500;
+   
+}
+.urus2{
+    color: white;
+    padding-left: 145px;
+    padding-top: 1px;
+    font-size: 6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hexa{
+    color: white;
+    width:72px;
+    height: 85px;
+    margin-left: 145px;  
+    cursor: pointer; 
+}
+.huracan{
+    padding: 240px;
+    width: 100%;
+    margin-left: -240px;
+    
+    
+}
+.hura1{
+    color: white;
+    margin-left: 115px;
+    margin-top: -1000px;
+    font-size: 35px;
+    font-weight: 100;
+
+}
+.huraicon{
+    color: white;
+    width:56px;
+    height: 80px;
+    margin-left: 115px;
+    cursor: pointer;
+    
+
+}
+.huraicon2{
+    color: white;
+    width:56px;
+    height: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.hura2{
+    color: white;
+    font-size: 6.6rem;
+    font-weight: bold;
+    margin-left: 111px;
+    margin-top: 155px;
+    letter-spacing: -3.5px;
+}
+.hura3{
+    color: white;
+    font-size: 2rem;
+    margin-left: 114px;
+    margin-top: 3px;
+    letter-spacing: -1.5px;
+}
+.huraicon3{
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left:117px;
+    margin-top: 112px;
+    cursor: pointer;
+
+}
+.hura4{
+    color: white;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 23px;
+    cursor: pointer;
+}
+.aventador{
+    width: 100%;
+    padding-top: 220px;
+    
+}
+.avent1{
+    color: black;
+    margin-left: 135px;
+    margin-top: -490px;
+    font-size: 29px;
+}
+.avent2{
+    color: black;
+    margin-left: 135px;
+    margin-top: 14px;
+    font-size: 64px;
+    font-weight: bold;
+    
+}
+.aventicon{
+    width:58px;
+    height: 82px;
+    margin-left: 132px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+.avent3{
+    color: black;
+    font-size: 20px;
+    margin-left: 115px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+.golden{
+    width: 100%;
+    padding-top: 260px;
+    
+}
+.gold1{
+  color: white;
+  margin-top: -658px;
+  margin-left: 119px;
+  font-size: 30px;
+
+}
+.gold2{
+    color: white;
+    margin-top: 24px;
+    margin-left: 119px;
+    font-size: 66px;
+}
+.goldicon{
+    color: white;
+    width:63px;
+    height: 87px;
+    margin-left: 116px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.news{
+    width: 100%;
+    padding-top:100px;
+}
+.news1{
+    color: black;
+    margin-top: -925px;
+    margin-left: 118px;
+    font-size: 33px;
+}
+.news2{
+    color: black;
+    margin-top: 23px;
+    margin-left: 120px;
+    font-size: 102px;
+    text-transform: uppercase;
+}
+.news2img{
+    width: 85%;
+    margin-top: 24px;
+    margin-left: 118px;
+
+}
+.white{
+    
+    width: 100%;
+    padding-top: 320px;
+    padding-bottom: 170px;
+}
+.white1{
+    color: black;
+    margin-top: -1395px;
+    margin-left: 117px;
+    font-size: 20px;
+}
+.whitebut{
+    width:129px;
+    height: 30px;
+    border: 0px outset rgb(255, 255, 255);
+    background-color: rgb(235 236 237);
+    cursor:pointer;
+    margin-top: 15px;
+    margin-left: 118px;
+}
+.whitebut:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.white2{
+    color: black;
+    margin-top: 23px;
+    margin-left: 117px;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.white3{
+    color: rgb(166, 166, 166);
+    margin-top: 18px;
+    margin-left: 117px;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+.whiteimg{
+    width: 574px;
+    height: 275px;
+    margin-left: 117px;
+    margin-top: 43px;
+
+}
+.white4{
+    
+    color: rgb(166, 166, 166); 
+    margin-top: -282px;
+    margin-left: 734px;
+    font-size: 17px;
+    font-weight: lighter;
+    
+}
+.whitebut2{
+    width:60px;
+    height: 22px;
+    border: 0px outset rgb(255, 255, 255);
+    background-color: rgb(235 236 237);
+    cursor:pointer;
+    margin-top: 40px;
+    margin-left: 734px;
+}
+.whitebut2:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.white5{
+    color: black; 
+    margin-top: 15px;
+    margin-left: 734px;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.whitebut3{
+    width:208px;
+    height: 55px;
+    border: 2px outset  rgb(158, 164, 171);
+    background-color: white;
+    cursor:pointer;
+    margin-top: 56px;
+    margin-left: 734px;
+}
+.whitebut3:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.man{
+    width: 574px;
+    height: 275px;
+    margin-left: 117px;
+    margin-top: 50px;
+}
+.whitebut4{
+    width:208px;
+    height: 55px;
+    border: 2px outset  rgb(158, 164, 171);
+    background-color: white;
+    cursor:pointer;
+    margin-top: 23px;
+    margin-left: 734px
+}
+.whitebut4:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.whitebut5{
+    width:208px;
+    height: 55px;
+    border: 2px outset  rgb(158, 164, 171);
+    background-color: white;
+    cursor:pointer;
+    margin-top: 90px;
+    margin-left: 630px
+    
+}
+.whitebut5:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;  
+}
+.bottom{
+    width: 100%;
+    height: 500px;
+    background: black;
+
+}
+.bottomright{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 220px;
+    margin-left: 30px;
+    line-height: 30PX;
+}
+.bottomicon{
+    display: flex;
+    color: white;
+    position: relative;
+    top: 173px;
+    left: 1204px;
+
+
+}
+.img1{
+    float: right;
+    margin-left: -22px;
+    margin-top: -10px;
+    height: 22px;
+
+}
+.img2{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img3{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img4{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px; 
+}
+.img5{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img6{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img7{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img8{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.img9{
+    float: right;
+    margin-left: 6px;
+    margin-top: -10px;
+    height: 20px;
+}
+.botpara{
+    top: 264px;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    left: 50px;
+  
+}
+.botpara2{
+    top: 344px;
+    position: relative;
+    color: white;
+    font-size: 17px;
+    left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
